@@ -1,0 +1,53 @@
+
+h1 {
+  padding-top: 40px;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: rgba(255, 255, 255);
+}
+
+section {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: left !important;
+  margin: 0;
+  text-indent: 27px;
+  margin-top: 10px;
+}
+
+html {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+main {
+  width: 300px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  font-family: arial;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  display: block;
+  margin: 0 auto;
+  text-align: left !important;
+  text-indent: 5px;
+}
