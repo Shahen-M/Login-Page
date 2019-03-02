@@ -1,53 +1,104 @@
-
-h1 {
-  padding-top: 40px;
-}
-
-button {
-  width: 130px;
-  height: 40px;
-  background: #fff;
-  border-radius: 10px;
-  margin-top: 15px;
-  background-color: rgba(255, 0, 0, 0.5);
-  color: rgba(255, 255, 255);
-}
-
-section {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
-p {
-  text-align: left !important;
-  margin: 0;
-  text-indent: 27px;
-  margin-top: 10px;
-}
-
 html {
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: #3c3c3c;
 }
 
-main {
-  width: 300px;
-  height: 400px;
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.nav-header {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+}
+
+.nav-header p {
+  font-family: arial;
+  font-size: 16px;
+  float: right;
+  margin-right: 20px;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+main p {
+  text-align: center;
+  font-size: 25px;
+  font-family: arial;
+  color: #fff;
+}
+
+.hidden-content {
+  width: 250px;
   display: block;
   margin: 0 auto;
-  font-family: arial;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.login-header p {
   text-align: center;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  font-family: arial;
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: bold;
 }
 
 input {
-  width: 80%;
+  border-radius: 10px;
   height: 30px;
-  border-radius: 5px;
   border: 1px solid;
+  text-indent: 10px;
   display: block;
   margin: 0 auto;
-  text-align: left !important;
-  text-indent: 5px;
+  margin-bottom: 15px;
+
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login-btn {
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background: #3c3c3c;
+  color: #fff;
 }
