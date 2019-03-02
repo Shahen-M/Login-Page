@@ -1,28 +1,29 @@
+<?php
+  require "header.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <main>
-      <header>
-        <h1> Sign Up </h1>
+
+    <div class="hidden-content">
+      <header class="login-header">
+        <p>Create Account</p>
       </header>
 
-      <form action="account.php" method="post">
-        <p>Username:</p>
+      <form action="includes/signup.inc.php" method="post">
         <input type="text" name="username" placeholder="Username">
-
-        <p>Password:</p>
-        <input type="text" name="password" placeholder="Password">
-
-        <p>E-mail:</p>
         <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <input type="password" name="password-repeat" placeholder="Repeat password">
 
-        <button type="submit" name="submit">Create Account</button>
+        <button class="signup-btn btn" type="submit" name="signup-submit">Sign Up</button>
+
       </form>
-    </main>
+    </div>
   </body>
 </html>
